@@ -1,0 +1,7 @@
+h1{
+    background: url("./assert/nature.jpg");
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+    font-size: 10rem;
+}
