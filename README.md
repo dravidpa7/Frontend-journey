@@ -1,4 +1,5 @@
 # Frontend-journey
 
-day 1 - shareable code using codepen
-day 2 - learning git
+
+- Day 1 - shareable code using codepen
+- Day 2 - learning git 
