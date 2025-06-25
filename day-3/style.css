@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    outline: 0px;
+    margin: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+.card img{
+    width: 12rem;
+}
+.card button{
+    display: none;
+    position: absolute;
+    font-size:1rem ;
+    padding: 0.10rem;
+    border-radius: 0.4rem;
+    color: rgb(122, 70, 3);
+    background-color: white;  
+    border: 1px white solid;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border:0.1rem rgb(137, 137, 137) solid;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.card:hover img{
+    filter: opacity(0%); 
+}
+
+.card:hover  button{
+    display: block;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px rgb(250, 225, 192);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: blue;
+    width: 95%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left {
+    background-color: aqua;
+    width: 45%;
+    height: 95%;
+}
+.right{
+      background-color: white;
+      width:45%;
+      height: 95%;
+}
+.recipe-card{
+    display: flex;
+    justify-content: center;
+}
