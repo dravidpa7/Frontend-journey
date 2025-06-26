@@ -4,68 +4,106 @@
     margin: 0px;
 }
 body{
-    background-color: antiquewhite;
+    background: #f5900c;
+    background: linear-gradient(162deg, rgba(245, 144, 12, 1) 0%, rgba(255, 180, 82, 1) 52%, rgba(255, 179, 79, 1) 25%, rgba(237, 221, 83, 1) 100%);
 }
+.header{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin: 2rem ;
+    font-size: larger;
+    color: #583200;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-link{
+    position: absolute;
+    display: none;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    color: white;
+    background-color: rgb(171, 97, 1);
+    border: rgb(122, 70, 3) 1px white ;
+}
+
 .card img{
     width: 12rem;
 }
-.card button{
-    display: none;
-    position: absolute;
-    font-size:1rem ;
-    padding: 0.10rem;
-    border-radius: 0.4rem;
-    color: rgb(122, 70, 3);
-    background-color: white;  
-    border: 1px white solid;
-}
+
 .card{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     margin: 1rem;
-    border:0.1rem rgb(137, 137, 137) solid;
     height: 15rem;
     width: 15rem;
     border-radius: 1rem;
     background-color: white;
+    box-shadow: 10px 10px 10px 10px rgb(251, 153, 24);
 }
 
 .card:hover img{
     filter: opacity(0%); 
 }
 
-.card:hover  button{
+
+.card:hover .btn-link{
     display: block;
 }
+
 .card:hover{
-    box-shadow: 10px 10px 10px 10px rgb(250, 225, 192);
+    box-shadow: 10px 10px 10px 10px rgb(196, 112, 2);
 }
-.main{
+
+
+
+
+.recipe-card{
+    width: 97%;
+    background-color: rgb(255, 255, 255) ;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px 10px rgb(250, 225, 192);
+    overflow-x: hidden;
 }
-.container{
-    background-color: blue;
-    width: 95%;
-    height: 30rem;
+
+.main-card{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 100vh;
 }
-.left {
-    background-color: aqua;
+
+.left{
+    background-color: rgb(255, 255, 255);
     width: 45%;
     height: 95%;
+
 }
+
 .right{
-      background-color: white;
-      width:45%;
-      height: 95%;
-}
-.recipe-card{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 95%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    width: 21rem;
+}
+table, th, td {
+  border: 1px solid;
 }
