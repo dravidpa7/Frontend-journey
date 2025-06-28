@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.animation{
+    position: absolute;
+    top: 0;
+    left: 10rem;
+    width: 70%;
+    transform :0.3s ease;
+}
+
+/* body{
+    background-color: black ;
+} */
+
+header{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 4rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    right:4rem;
+    top: 1rem;
+}

@@ -6,4 +6,4 @@
 - Day 3 - Cooking Recipe website [task-3]
 - Day 4 - Major Ui update in cooking Recipe
 - Day 5 - Change recipe home
-- Day 6 - Completed Task -3 (Recipe)
+- Day 6 - Completed Task -3 (Recipe),[task-4] integration animation on website
