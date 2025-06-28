@@ -6,37 +6,78 @@
 .animation{
     position: absolute;
     top: 0;
-    left: 10rem;
-    width: 70%;
+    left:30rem;
+    width: 65%;
     transform :0.3s ease;
 }
 
-/* body{
+body{
     background-color: black ;
-} */
+    color: white;
+}
 
 header{
     display: flex;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-}
+
 
 img{
     width: 4rem;
 }
 
-nav a{
+nav a,h3{
     text-decoration: none;
     font-size: 1.2rem;
+    color: white;
 }
 
 nav{
     display: flex;
-    gap: 3rem;
+    gap: 7rem;
     position: absolute;
     right:4rem;
     top: 1rem;
+}
+
+nav > button{
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    font-weight: bolder;
+    border: 0px;
+    font-family: "Nunito", sans-serif;;
+    color: white;
+}
+
+nav > button:hover{
+        background: #6002cc;
+    background: linear-gradient(57deg, rgba(96, 2, 204, 1) 0%, rgba(146, 2, 201, 1) 0%, rgba(173, 2, 199, 1) 22%, rgba(255, 64, 64, 1) 90%, rgba(247, 183, 87, 1) 100%);
+    }
+
+.card{
+    width: 30%;
+    margin-left: 10%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+.card > p{
+    font-size: larger;
+}
+
+.card > h1{
+     font-family: "Pixelify Sans", sans-serif;
+
+}
+
+.font{
+    font-family: "Nunito", sans-serif;
+}
+
+span{
+    color: #6002cc;
 }
