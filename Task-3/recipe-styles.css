@@ -1,0 +1,114 @@
+.card{
+    background-color: rgb(255, 255, 255);
+    height:40rem;
+    width: 90%;
+    margin: 4rem;
+    position: sticky;
+    top:2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px 10px rgb(251, 153, 24);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main::after {
+  content: "";
+  display: block;
+  height: 20vh; /* adjust as needed */
+}
+
+
+
+body{
+    background: #f5900c;
+    background: linear-gradient(162deg, rgba(245, 144, 12, 1) 0%, rgba(255, 180, 82, 1) 52%, rgba(255, 179, 79, 1) 25%, rgba(237, 221, 83, 1) 100%);
+
+}
+
+table{
+    font-size: 1.1rem;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px rgb(196, 112, 2);
+}
+
+.inner-card{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.txt-color,h3{
+        color: #925302;
+}
+
+ 
+.left{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20rem;
+}
+
+.bottom-section{
+    text-align: center;
+}
+
+.bottom-section button{
+    border-radius: 50%;
+    background-color: #925302;
+    color: white;
+    border: 0px;
+}
+
+section>button.active ~ button{
+    border: #925302 1px solid;
+    color: #976524;
+    background-color: white;
+}
+
+.icon{
+    font-size: 10rem;
+    color:#f7f7f7;
+}
+
+.final-card{
+    background-color: #f5900c;
+    height:40rem;
+    width: 90%;
+    margin: 4rem;
+    position: sticky;
+    top:2rem;
+    border-radius: 1rem;
+}
+
+
+.final-inner-card{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

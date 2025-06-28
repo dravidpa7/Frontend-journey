@@ -13,6 +13,12 @@ body{
     margin: 2rem ;
     font-size: larger;
     color: #583200;
+    text-shadow: 1px 1px rgb(255, 159, 32),
+                 1px 2px rgb(255, 159, 32),
+                 1px 3px rgb(255, 159, 32),
+                 1px 4px rgb(196, 112, 2),
+                 1px 5px rgb(196, 112, 2),
+                 1px 6px rgb(196, 112, 2);
 }
 
 .main{
@@ -31,8 +37,8 @@ body{
     padding: 0.5rem 1rem;
     border-radius: 0.4rem;
     color: white;
-    background-color: rgb(171, 97, 1);
-    border: rgb(122, 70, 3) 1px white ;
+    background-color: #925302;
+    border: 1px white ;
 }
 
 .card img{
@@ -63,47 +69,4 @@ body{
 
 .card:hover{
     box-shadow: 10px 10px 10px 10px rgb(196, 112, 2);
-}
-
-
-
-
-.recipe-card{
-    width: 97%;
-    background-color: rgb(255, 255, 255) ;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 1rem;
-    box-shadow: 10px 10px 10px 10px rgb(250, 225, 192);
-    overflow-x: hidden;
-}
-
-.main-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.left{
-    background-color: rgb(255, 255, 255);
-    width: 45%;
-    height: 95%;
-
-}
-
-.right{
-    background-color: rgb(255, 255, 255);
-    width: 45%;
-    height: 95%;
-    display: flex;
-    align-items: center;
-}
-
-.right img{
-    width: 21rem;
-}
-table, th, td {
-  border: 1px solid;
 }
