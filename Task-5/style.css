@@ -1,0 +1,164 @@
+
+:root{
+    --font-family-primary:  "Young Serif", serif;
+    --font-family-secondary: "Outfit", serif;
+
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-stone-100: hsl(30, 54%, 90%);
+    --color-stone-150: hsl(30, 18%, 87%);
+    --color-stone-600: hsl(30, 10%, 34%);
+    --color-stone-900: hsl(24, 5%, 18%);
+    --color-brown-800: hsl(14, 45%, 36%);
+    --color-rose-50  : hsl(330, 100%, 98%);
+    --color-rose-800 : hsl(332, 51%, 32%);
+
+    --font-size-xl: 4rem;
+    --font-size-lg: 2.8rem;
+    --font-size-md: 2rem;
+    --font-size-sm: 1.6rem;
+
+    --margin: 25px 0px;
+    --padding:20px;
+}    
+
+body{
+    background-color:var(--color-stone-100);
+}
+
+main{
+    width: 720px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.header h1{
+    font-size:var(--font-size-lg) ;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+
+.header>p,.preparation>h3{
+    margin: var(--margin);
+}
+
+.preparation>h2{
+    margin: 20px 0px;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-family: var(--font-family-secondary);
+    color: var(--color-rose-800);
+}
+
+.preparation li{
+    color: var(--color-stone-600);
+    font-family: var(--font-family-secondary);
+    padding-left: var(--padding);
+}
+.preparation{
+    padding: 30px;
+    background-color: var(--color-rose-50);
+    border-radius: 10px;
+}
+
+
+img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+h1,h2{
+    font-family: var(--font-family-primary);
+}
+
+p{
+    font-family: var(--font-family-secondary);
+}
+
+.Ingredients h2{
+    margin:var(--margin);
+    color: var(--color-brown-800);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+}
+
+.Ingredients li{
+    color: var(--color-stone-600);
+    padding-left: var(--padding);
+    font-family: var(--font-family-secondary);
+}
+li::marker{
+    color: var(--color-brown-800);
+}
+
+.Ingredients ul{
+    margin: var(--margin);
+}
+
+
+.Instructions{
+    margin: var(--margin);
+    color: var(--color-brown-800);
+}
+
+hr{
+    color: var(--color-stone-100);
+}
+
+.Instructions h2{
+    margin:var(--margin);
+    color: var(--color-brown-800);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+}
+
+.Instructions ol{
+    margin: var(--margin);
+    font-family: var(--font-family-secondary);
+}
+
+.Instructions li{
+    padding-left: var(--padding);
+    color: var(--color-stone-600);
+}
+
+.Nutrition{
+    margin: var(--margin);
+}
+
+.Nutrition p{
+    margin: var(--margin);
+    color: var(--color-stone-600);
+}
+.Nutrition h2{
+    color: var(--color-brown-800);
+    font-weight: 400;
+}
+
+.units{
+  border: 10px solid black;
+}
+
+table{
+    margin: 10px 30px;
+
+}
+
+table td:first-child{
+    color: var(--color-stone-900);
+
+}
+table td:last-child{
+    color: var(--color-rose-800);
+    position: relative;
+    left:200px;
+}
+
+table{
+    font-family: var(--font-family-secondary);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
