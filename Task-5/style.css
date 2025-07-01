@@ -138,9 +138,6 @@ hr{
     font-weight: 400;
 }
 
-.units{
-  border: 10px solid black;
-}
 
 table{
     margin: 10px 30px;
@@ -148,7 +145,7 @@ table{
 }
 
 table td:first-child{
-    color: var(--color-stone-900);
+    color: var(--color-stone-600);
 
 }
 table td:last-child{
@@ -159,6 +156,38 @@ table td:last-child{
 
 table{
     font-family: var(--font-family-secondary);
+}
+
+.line{
+    border-bottom: 1px solid var(--color-stone-600);
+}
+
+@media (max-width:375px) {
+    .img-container{
+        width: 370px;
+    }
+    main{
+        width: 370px;
+        background-color: rgb(255, 255, 255);
+        margin: 0px auto;
+        padding: 0px;
+    }
+    body{
+        background-color:white;
+    }
+
+    img{
+        border-radius: 0px;
+    }
+    .text{
+        padding: 20px;
+    }
+    .header h1{
+        font-size: var(--font-size-md);
+    }
+    table td:last-child{
+        left:100px;
+    }
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
