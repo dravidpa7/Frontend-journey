@@ -1,27 +1,27 @@
 :root{
-    --Green:hsl(75, 94%, 57%);
+    --green:hsl(75, 94%, 57%);
 
-    --White: hsl(0, 0%, 100%);
+    --white: hsl(0, 0%, 100%);
 
-    --Grey-700: hsl(0, 0%, 20%);
-    --Grey-800: hsl(0, 0%, 12%);
-    --Grey-900: hsl(0, 0%, 8%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
 
     --font-family: "Inter",sans-serif;
     --font-size-md: 0.8rem;
     --font-size-lg: 1.5rem;
 
-    --Weights-400: 400; 
-    --Weights-600: 600;
-    --Weights-700: 700;
+    --weights-400: 400; 
+    --weights-600: 600;
+    --weights-700: 700;
 }
 
 .card{
-    background-color: var(--Grey-800);
-    color: var(--White);
+    background-color: var(--grey-800);
+    color: var(--white);
     width: 22.12rem;
     padding: 1.5rem;
-    height:32rem ;
+    height:33rem ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ main{
 }
 
 body{
-    background-color: var(--Grey-900);
+    background-color: var(--grey-900);
 }
 
 .img-container{
@@ -59,12 +59,12 @@ img{
 
 h1{
     font-size:var(--font-size-lg);
-    font-weight: var(--Weights-700);
+    font-weight: var(--weights-700);
 }
 
 h4{
     font-size: var(--font-size-md);
-    color: var(--Green);
+    color: var(--green);
 }
 
 .container{
@@ -76,25 +76,25 @@ h4{
 }
 
 p{
-    font-weight: var(--Weights-400);
+    font-weight: var(--weights-400);
 }
 button{
     padding: 10px;
     width: 270px;
     border-radius: 0.7rem;
-    color: var(--White);
-    background-color: var(--Grey-700);
+    color: var(--white);
+    background-color: var(--grey-700);
     border: 0px;
-    font-weight: var(--Weights-600);
+    font-weight: var(--weights-600);
 }
 
 button:hover{
-    color: var(--Grey-900);
-    background-color: var(--Green);
+    color: var(--grey-900);
+    background-color: var(--green);
 }
 
 .attribution { 
-    color: var(--White);
+    color: var(--white);
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
@@ -105,7 +105,7 @@ button:hover{
     .card{
         width: 20.12rem;
         padding: 1.5rem;
-        height:32rem ;
+        height:33rem ;
 
     }
 }
