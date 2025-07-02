@@ -1,0 +1,69 @@
+:root{
+
+    --black: hsl(212, 21%, 14%);
+    --grey: hsl(228, 12%, 48%);
+    --cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+
+    --green-500: hsl(158, 36%, 37%);
+    --green-700: hsl(158, 42%, 18%);
+
+    --font-size-p: 14px;
+
+    --font-family-primary:"Montserrat", sans-serif;
+    --font-family-secondary:"Fraunces", serif;
+
+    --margin:1rem;
+    --padding:2rem;
+
+    --font-size-sm:0.9rem;
+    --font-size-lg:2rem;
+}
+body{
+    background-color: var(--cream);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.7rem  0rem 0rem 0.7rem;
+}
+
+.image-container{
+    width: 300px;
+}
+
+.card{
+    display: flex;
+    width: 600px;
+    background-color: var(--white);
+    border-radius: 0.7rem;
+}
+
+.text-conatiner{
+    padding: var(--padding);
+    font-size: var(--font-size-p);
+    width: 300px;
+}
+
+span{
+    font-family: var(--font-family-primary);
+    text-transform: uppercase;
+    gap: 0.3px;
+}
