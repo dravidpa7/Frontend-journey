@@ -13,8 +13,11 @@
     --font-family-primary:"Montserrat", sans-serif;
     --font-family-secondary:"Fraunces", serif;
 
-    --margin:1rem;
+    --margin:1.6rem;
     --padding:2rem;
+
+    --wegiht-500:500;
+    --wegiht-700:700;
 
     --font-size-sm:0.9rem;
     --font-size-lg:2rem;
@@ -38,7 +41,7 @@ main{
     color: hsl(228, 45%, 44%); 
 }
 
-img{
+.product-img{
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -46,12 +49,12 @@ img{
 }
 
 .image-container{
-    width: 300px;
+    width: 18.75rem;
 }
 
 .card{
     display: flex;
-    width: 600px;
+    width:37.5rem;
     background-color: var(--white);
     border-radius: 0.7rem;
 }
@@ -59,11 +62,90 @@ img{
 .text-conatiner{
     padding: var(--padding);
     font-size: var(--font-size-p);
-    width: 300px;
+    width: 18.75rem;
+}
+
+.text-conatiner>*{
+    margin: var(--margin) 0rem;
 }
 
 span{
     font-family: var(--font-family-primary);
     text-transform: uppercase;
-    gap: 0.3px;
+    letter-spacing: 0.25rem;
+    font-size: 0.74rem;
+    font-weight:var(--wegiht-500);
+    color: var(--grey);
+}
+
+h1{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    line-height: 2rem;
+    font-weight: var(--wegiht-700);
+}
+
+p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-p);
+    color: var(--grey);
+}
+
+.prize-area{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prize-area > h1{
+    color: var(--green-500);
+}
+
+.prize-area > strike{
+    color: var(--grey);
+    font-family: var(--font-family-primary);
+    font-weight: var(--wegiht-700);
+
+}
+
+button{
+    width: 15rem;
+    background-color: var(--green-500);
+    border-radius: 0.5rem;
+    font-family: inherit;
+    color: var(--white);
+    border: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 1rem 0rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-weight: var(--wegiht-700);
+}
+
+button:hover{
+    background-color: var(--green-700);
+    cursor:pointer;
+}
+
+
+@media(max-width:375px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        width:22rem;
+        overflow: hidden;
+    }
+
+    .image-container{
+        content: url('./images/image-product-mobile.jpg');
+        width: 100%;
+        
+    }
+
 }
