@@ -1,0 +1,64 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(165, 84, 84);
+    font-size: 13rem;
+    text-align: center;
+    animation-name: slide-left;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-direction: nomal;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+}
+
+@keyframes slide-left{
+    to{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slide-right{
+    from{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes rotate{
+    10%{
+        /* transform: rotatex(360deg); */
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale{
+    50% {
+        transform: scale(2,1);
+    }
+}
+
+
+@keyframes shrink {
+    70% {
+        transform: scale(0.5,0.5);
+    }
+}
+
+@keyframes fade {
+    50% {
+        opacity: 70%;
+    }
+}
+
+@keyframes color-change {
+    10%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: rgb(58, 1, 111);
+    }
+    100%{
+        background-color: rgb(51, 32, 68);
+    }
+}

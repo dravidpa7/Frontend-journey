@@ -1,0 +1,67 @@
+.box {
+  border: 2px solid black; /* Always 2 device pixels thick */
+  width: 200px; /* Fixed width */
+  padding: 10px; /* Fixed padding */
+}
+
+
+html {
+  font-size: 20px; 
+
+}
+
+h1 {
+  font-size: 2rem; /*40px*/
+}
+
+p {
+  font-size: 1rem; /*20px*/
+}
+
+/* rem
+
+html {
+  font-size: 20px;
+}
+
+.container {
+  font-size: 10px; Different font-size
+}
+
+.container h1 {
+  font-size: 2rem; 2 x html = 40px
+} */
+
+
+
+/* 
+em
+
+html {
+  font-size: 20px;
+}
+
+.container {
+  font-size: 10px; Different font-size
+}
+
+.container h1 {
+  font-size: 2em; 2 x container = 20px
+} */
+
+
+.hero {
+  height: 100vh; /* Full viewport height */
+  background: url('/dravid-profile.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.container {
+  width: 80vw; /* 80% of the viewport width */
+  background-color: lightgray;
+  padding: 20px;
+  margin: 0 auto;
+}
+

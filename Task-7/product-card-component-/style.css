@@ -1,5 +1,5 @@
 :root{
-
+    
     --black: hsl(212, 21%, 14%);
     --grey: hsl(228, 12%, 48%);
     --cream: hsl(30, 38%, 92%);
@@ -12,13 +12,13 @@
 
     --font-family-primary:"Montserrat", sans-serif;
     --font-family-secondary:"Fraunces", serif;
-
+    
     --margin:1.6rem;
     --padding:2rem;
-
+    
     --wegiht-500:500;
     --wegiht-700:700;
-
+    
     --font-size-sm:0.9rem;
     --font-size-lg:2rem;
 }
@@ -43,7 +43,7 @@ main{
 
 .product-img{
     height: 100%;
-    width: 100%;
+    width: 100%;  
     object-fit: contain;
     border-radius: 0.7rem  0rem 0rem 0.7rem;
 }
@@ -96,7 +96,6 @@ p{
     align-items: center;
     gap: 1rem;
 }
-
 .prize-area > h1{
     color: var(--green-500);
 }
