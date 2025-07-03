@@ -16,4 +16,4 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 - Day 9 - Desktop version completed [Task -5], , responsive ( mobile - 375px )completed - [link](https://dravid-cooking-recipe.netlify.app/) <br>
         - [Task-6]- Social profile card , responsive (mobile 375px) completed - [link](https://dravid-social-profile-card.netlify.app/) <br>
         - [Task-7]- Started 
-- Day10 - [Task-7]-completed with responsive
+- Day10 - [Task-7]-completed with responsive [link](https://dravid-product-card.netlify.app/) <br>
