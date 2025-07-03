@@ -17,4 +17,5 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
         - [Task-6]- Social profile card , responsive (mobile 375px) completed - [link](https://dravid-social-profile-card.netlify.app/) <br>
         - [Task-7]- Started 
 - Day10 - [Task-7]-completed with responsive [link](https://dravid-product-card.netlify.app/) <br>
-        - [Task-8]-strarted
+        - [Task-8]-strarted <br>
+- Day11 - [Task-8]- completed css units, animations and key-frame
