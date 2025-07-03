@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.cricle{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(1, 1, 84);
+    bottom: 210px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.env{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    height: 750px;
+    width: 400px;
+    
+
+}
+
+hr{
+    border-color: rgb(74, 0, 0);
+    width: 100%;
+    position: absolute;
+    bottom: 200px;
+}
+
+
+@keyframes animation {
+    0%{
+        background-color: rgb(255, 0, 0);
+        transform: translate(-80px,0px);
+        
+        
+    }
+    25%{
+         background-color: rgb(246, 59, 59);
+         /* transform: rotatex(100deg); */
+         
+    }
+    50%{
+        background-color: rgb(248, 122, 122);
+        transform: translate(0px,-200px);
+        /* transform: rotatey(200deg); */
+
+    }
+    75%{
+         background-color: rgb(253, 163, 163);
+          /* transform: rotatez(360deg); */
+
+    }
+    100%{
+         background-color: rgb(249, 199, 199);
+        transform: translate(80px,0px);
+    }
+}
+
