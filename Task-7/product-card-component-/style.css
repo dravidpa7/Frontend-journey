@@ -133,7 +133,7 @@ button:hover{
 }
 
 
-@media(max-width:375px) {
+@media(max-width:600px) {
     .card{
         display: flex;
         flex-direction: column;
@@ -142,7 +142,7 @@ button:hover{
     }
 
     .image-container{
-        /* content: url('./images/image-product-mobile.jpg'); */
+        content: url('./images/image-product-mobile.jpg');
         width: 100%;
         
     }
