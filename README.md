@@ -18,5 +18,6 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 9  | Desktop version completed [Task-5], responsive (mobile 375px) completed <br> [Task-6] Social profile card responsive (mobile 375px) completed <br> [Task-7] Started - Product Card | [Cooking Recipe](https://dravid-cooking-recipe.netlify.app/)<br>[Social Profile Card](https://dravid-p-a.netlify.app/) |
 | Day 10 | [Task-7]  Completed with responsive <br> [Task-8] Started | [Product Card](https://dravid-product-card.netlify.app/) |
 | Day 11 | [Task-8] Completed CSS units, animations, and keyframes | - |
+| Day 12 | [Task-9] Media query, Pseudo-classes, elements |-|
 
 
