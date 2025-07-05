@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    h1::before {
+      content: "🌟 ";
+    }
+    h1::after {
+      content: " 🌟";
+    }
+    p:first-letter {
+      font-size: 2em;
+      color: rgb(152, 106, 152);
+    }
+    p::first-line {
+      font-weight: bold;
+    }
+
+    h1:hover{
+        background-color: aquamarine;
+        color: chocolate;
+    }
+
+    button::after {
+        content: " ⬇"; /* Unicode arrow down */
+        font-size: 1.2em;
+    }
+
+
+    /* Syntax: Pseudo-elements are written with a double colon (::) to differentiate them from pseudo-classes (e.g., :hover). 
+    However, older browsers may still support the single colon (:) syntax for backward compatibility. */
+  </style>
+</head>
+<body>
+  <h1>Welcome to CSS Pseudo-Elements</h1>
+  <p>This is an example paragraph to demonstrate pseudo-elements in action.</p>
+
+  <h1>Pseudo-classes</h1>
+
+  <button>12 %</button>
+</body>
+</html>
