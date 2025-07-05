@@ -1,0 +1,127 @@
+.outer{
+    background-color: rgb(242, 242, 242);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+
+.inner{
+    position: absolute;
+    background-color: rgb(246, 250, 191);
+    width: 180px;
+    height: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.char{
+    width: 30px;
+    position: relative;
+    left: 40%;
+    top:45px;
+    z-index: 2;
+    animation: minion;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running; 
+}
+
+.tramp{
+    width: 100px;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+}
+
+.spinner{
+    position: absolute;
+    top: 0; left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(13, 127, 227);
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: -30px;
+    top: -30px;
+    position: absolute;
+    background-color: rgb(255, 177, 61);
+    box-shadow: 10px 10px 10px 10px #fbef83;
+}
+
+.grass{
+    width: 100%;
+    height: 25px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.controller{
+    padding: 10px;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebeae9;
+}
+
+
+button:first-child{
+    background-color: rgb(73, 73, 255);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button:last-child{
+    background-color: rgb(255, 73, 73);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+@keyframes loader{
+     0% {
+        top: 0px; left: 0px;
+    }
+    25%{
+        top: 0px; left: 190px;
+    }
+    50%{
+        
+        top: 190px; left:190px;
+    }
+    75%{
+        top: 190px; left: 0px;
+    }
+    100%{
+        top: 0px; left: 0px;
+    }
+}
+
+@keyframes minion{
+    50%{
+        transform: translate(0px,-60px);
+    }
+}
