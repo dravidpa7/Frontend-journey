@@ -19,5 +19,6 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 10 | [Task-7]  Completed with responsive <br> [Task-8] Started | [Product Card](https://dravid-product-card.netlify.app/) |
 | Day 11 | [Task-8] Completed CSS units, animations, and keyframes | - |
 | Day 12 | [Task-9] Media query, Pseudo-classes, elements Solved 3 problem codedam |-|
+| Day 13 | [Task-9] Minion animation game, Dom manupulation, Solved 2 problem | [Minion-game](https://dravid-minion-game.netlify.app/)|
 
 
