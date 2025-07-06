@@ -1,13 +1,23 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Tiny5&display=swap" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 <body>
     <main>
+        <header style="text-align: center;">
+            <h2>score</h2>
+            <h3 id="count">0</h3>
+        </header>
         <div class="card">
             <div class="outer">
                 <div class="spinner"></div>
@@ -19,8 +29,8 @@
                 </div>
             </div>
             <div class="controller" >
-                <button onclick="on()">Start</button>
-                <button onclick="off()" >Pause</button>
+                <button class="start-btn" onclick="off()"><i class="bi bi-play"></i></button>
+                <button class="pause-btn" onclick="on()"><i class="bi bi-pause-fill"></i></button>
             </div>
         </div>
     </main>

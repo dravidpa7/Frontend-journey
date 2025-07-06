@@ -1,16 +1,32 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+header{
+    color: white;
+}
 .outer{
     background-color: rgb(242, 242, 242);
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: flex;
     position: relative;
 }
 
+#count{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    color: aliceblue;
+}
+
+h2{
+    font-family: "Tiny5", sans-serif;
+    font-size: 3rem;
+}
 .inner{
     position: absolute;
     background-color: rgb(246, 250, 191);
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -18,23 +34,24 @@
 }
 
 .char{
-    width: 30px;
+    width: 40px;
     position: relative;
     left: 40%;
-    top:45px;
+    top:50%;
     z-index: 2;
     animation: minion;
     animation-delay: 0.5s;
-    animation-timing-function: ease-out;
-    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.34, 0.79, 0.2, 1);
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-play-state: running; 
+    animation-play-state: paused; 
 }
 
 .tramp{
     width: 100px;
     position: relative;
-    top: 90px;
+    top: 69%;
+    left: 13%;
     z-index: 1;
 }
 
@@ -47,7 +64,7 @@
     animation-name: loader;
     animation-duration: 3s;
     animation-timing-function: ease;
-    animation-play-state: running;
+    animation-play-state: paused;
     animation-iteration-count: infinite;
 }
 
@@ -75,29 +92,35 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
+}
+.pause-btn{
+    display: none;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
 }
 
-.controller{
-    padding: 10px;
-    width: 180px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #ebeae9;
+.start-btn{
+    display: block;
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
 }
-
 
 button:first-child{
     background-color: rgb(73, 73, 255);
     color: white;
-    border-radius: 5px;
+    border-radius: 50%;
     border: 0px;
 }
 
 button:last-child{
     background-color: rgb(255, 73, 73);
     color: white;
-    border-radius: 5px;
+    border-radius: 50%;
     border: 0px;
 }
 
@@ -106,14 +129,14 @@ button:last-child{
         top: 0px; left: 0px;
     }
     25%{
-        top: 0px; left: 190px;
+        top: 0px; left: 290px;
     }
     50%{
         
-        top: 190px; left:190px;
+        top: 290px; left:290px;
     }
     75%{
-        top: 190px; left: 0px;
+        top: 290px; left: 0px;
     }
     100%{
         top: 0px; left: 0px;
@@ -121,7 +144,31 @@ button:last-child{
 }
 
 @keyframes minion{
-    50%{
+    0%{
+        transform: translate(0px,0px);  
+    }
+    10%{
+        transform: translate(0px,-20px);
+    }
+    20%{
+        transform: translate(0px,0px);
+    }
+    30%{
         transform: translate(0px,-60px);
+    }
+    50%{
+        transform: translate(0px,0px);
+    }
+    60%{
+        transform: translate(0px,-30px);
+    }
+    70%{
+        transform: translate(0px,0px);
+    }
+    90%{
+        transform: translate(0px,-80px);
+    }
+    100%{
+        transform: translate(0px,0px);  
     }
 }
