@@ -21,4 +21,4 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 12 | [Task-9] Media query, Pseudo-classes, elements Solved 3 problem codedam |-|
 | Day 13 | [Task-9] Minion animation game, Dom manupulation, Solved 2 problem | [Minion-game](https://dravid-minion-game.netlify.app/)|
 | Day 14 | [Task-10] QR code component | [Link](https://dravid-qr-code-component.netlify.app/)|
-
+| Day 15 | [Task-11] Status preview component | [link](https://dravid-status-preview-card.netlify.app/)|
