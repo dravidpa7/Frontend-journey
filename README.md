@@ -23,3 +23,4 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 14 | [Task-10] QR code component | [Link](https://dravid-qr-code-component.netlify.app/)|
 | Day 15 | [Task-11] Status preview component | [link](https://dravid-status-preview-card.netlify.app/)|
 | Day 16 | [Task-12] Started |-|
+| Day 17 | [Task-12] ui update |-|
