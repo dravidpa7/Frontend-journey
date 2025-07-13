@@ -57,33 +57,17 @@ img {
     margin-top: 1rem;
 }
 
-.card__rating{
-    display: flex;
-    justify-content: space-between;
-}
-.card__rating span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: var(--grey-500);
-    font-weight: var(--weight-700);
-    width: var(--round);
-    height: var(--round);
-    background-color: var(--grey-900);
-    margin: 2rem 0rem;
-}
+.card__main-rating{
+    position: relative;
 
-.card__rating> span.active ~span{
-    background-color: var(--orange-500);
-    color: var(--grey-950);
+}
+.card__main-rating input{
     
 }
 
-/* .card:hover  {
-  transform: rotateY( 180 deg ) ;
-  transition: transform 0.5s;
-} */
+.card__main-rating label{
+  position: absolute;
+}
 
 .card__submiit-button{
     font-family: var(--font-family);
