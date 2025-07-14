@@ -25,3 +25,4 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 16 | [Task-12] Started |-|
 | Day 17 | [Task-12] ui update |-|
 | Day 18 | Collecting some resources for web Dev |-|
+| Day 19 | Basic Javascript |-|
