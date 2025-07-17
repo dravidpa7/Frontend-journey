@@ -26,3 +26,6 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 17 | [Task-12] ui update |-|
 | Day 18 | Collecting some resources for web Dev |-|
 | Day 19 | Basic Javascript |-|
+| Day 20 | JavaScript blog post |-|
+| Day 21 | Java problem 1 |-|
+| Day 22 | Python task problem solve using json |-|
