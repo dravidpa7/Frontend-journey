@@ -30,3 +30,4 @@ Every day, I am building, learning, and creating mini-projects to sharpen my ski
 | Day 21 | Java problem 1 |-|
 | Day 22 | Python task problem solve using json |-|
 | Day 23 | Todo Mini version completd |-|
+| Day 24 | Creating First React Movie app | [link](https://github.com/dravidpa7/movie-app)|
