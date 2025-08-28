@@ -58,15 +58,23 @@ img {
 }
 
 .card__main-rating{
-    position: relative;
-
+  display: inline;
+  margin: 1rem;
+  
 }
+
 .card__main-rating input{
-    
+  position: relative;
+  transform: scale(4);
 }
 
 .card__main-rating label{
   position: absolute;
+  z-index: 1;
+  color: black;
+    text-align: center;
+
+  
 }
 
 .card__submiit-button{
